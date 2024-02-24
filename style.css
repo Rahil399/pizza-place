@@ -1,0 +1,83 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+	   align-items: center; 
+	       overflow: hidden;
+    background-color: teal;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .left,
+.navbar .right {
+    display: flex; 
+    align-items: center; 
+}
+
+.navbar .left a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar .right a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#table_1 {
+	;
+	width: 100%;
+  }
+  
+.form {
+	max-width: fit-content; 
+	margin: 2% auto; 
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+.label {
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid coral;
+	border-radius: 5px;
+	box-sizing: border-box; 
+  }
+  
+  button[type="submit"] {
+	background-color: teal;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #008080; 
+  }
+	
+ 
