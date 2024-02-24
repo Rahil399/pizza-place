@@ -1,157 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contest</title>
-	<link rel="stylesheet" href="style.css">
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Palace</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />   
 </head>
 <body>
-	<div class="navbar">
-		<div class="left">
-			<a href="#Library System">Library System</a>
-		</div>
-		<div class="right">
-			<a href="#books">Books</a>
-			<a href="#register">Register</a>
-			<a href="#contactus">Contact us</a>
-			<a href="#logout">Logout</a>
-		</div>
-	</div>
-	
+    <nav class="sticky-top">
+      <h5 class="pl-4 pb-2 pt-2">Pizza Restauarant</h5>
+      <div class="pr-4 pt-2">
+        <span class="">ABOUT US</span>
+        <span class="">MENU</span>
+        <span class="">BLOGS</span>
+        <span class="">TESTIMONY</span>
+        <span class="">FIND US</span>
+        <span class="">OUR TEAM</span>
+      </div>
+      <div class="icon pt-2">
+        <i class="fa-brands fa-instagram icon" style="color: #e8eaee"></i>
+        <i class="fa-brands fa-facebook-f icon" style="color: #f1f2f4"></i>
+        <i class="fa-brands fa-whatsapp icon" style="color: #e6e9ef"></i>
+      </div>
+    </nav>
 
-	<div id="Books" class="section">
-		<h2>Books</h2>
-		<table id="table_1" class="section1" border="6">
-			<thead>
-				<tr>
-					<th>Book ID</th>
-					<th>Title</th>
-					<th>Author</th>
-					<th>Genre</th>
-					<th>Availability</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td style="text-align: center ;">1.</td>
-					<td><a href="#BookTitle1">Book Title 1</a>
-						<table id="mini_tab" border="2">
-							<tbody>
-								<tr>
-									<td>Publication Date: 2000</td></tr>
-									<tr><td>Page count: 250</td></tr>
-									<tr><td>ISBN: 123-4567890123</td></tr>
-							</tbody>
-						</table>
-					</td>
-					<td>Author 1</td>
-					<td>Genre 1</td>
-					<td>Available</td>
-				</tr>
+    <section class="topsec">
+      <div id="midhead">
+        <h1>Craving for a chessy pizza ?</h1>
+      </div>
+      <div id="lastmidhead">
+        <hr />
+        <p>
+            craving for the best try our pizza place. We got Everything you need from cheesy to greezy
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="aboutussection">
+        <h1 style="margin-top: 50px;">ABOUT US</h1>
+        <hr />
+      </div>
 
+      <div class="aboutussection-2">
+        <div>
+          <hr id="uptexthead" />
+          <p>
+            
+         Our pizza Recipes are are in our family for more than 50 years. Space we provide the best taste,
+         And our special sauces makes them more special.
+         Experience The great taste ever before. "The best in the West".
+          </p>
+        </div>
+        <img src="pizza2.png" alt="" />
+      </div>
+    </section>
+    <section class="menu">
+      <div class="aboutussection">
+        <h1>Menu</h1>
+        <hr />
+      </div>
+      <div id="paragraph">
+        <p>
+          Explore the wide range of pizza baked in fresh dough and vegetables.
+          Our pizza will tempt all your excitement and senses. Made with a
+          delicate balance of everything cheesy and spicy, you will get to
+          savour the best pizza in town.
+        </p>
+      </div>   
+    </section>
+    <section class="menu-list">
+    <div>    
+      <div id="menulist">
+        <img src="pizza2.png" alt="" />
+        <h6>LOREM IPSUM
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
+          placerat dui.
+        </p>
+        </h6>
+    </div>
+    <div id="menulist">
+        <img src="bread2.png" alt="" />
+        <h6>LOREM IPSUM
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
+          placerat dui.
+        </p>
+        </h6>
+    </div>
+    <div id="menulist">
+        <img src="Untitled.png" alt="" />
+        <h6>LOREM IPSUM
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
+          placerat dui.
+        </p>
+        </h6>
+    </div>   
+   </div>
 
-				<tr>
-					<td style="text-align: center;">2.</td>
-					<td><a href="#BookTitle2">Book Title 2</a>
-						<table border="1">
-							<tbody>
-								<tr>
-									<td>Publication Date: 2005</td></tr>
-									<tr><td>Page count: 300</td></tr>
-									<tr><td>ISBN: 123-4567890456</td></tr>
-							</tbody>
-						</table>
-					</td>
-					<td>Author 2</td>
-					<td>Genre 2</td>
-					<td>Not Available</td>
-				</tr>
+   <div>    
+    <div id="menulist">
+      <img src="pizza5.png" alt="" />
+      <h6>LOREM IPSUM
+      <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
+        placerat dui.
+      </p>
+      </h6>
+  </div>
+  <div id="menulist">
+      <img src="bread.png" alt="" />
+      <h6>LOREM IPSUM
+      <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
+        placerat dui.
+      </p>
+      </h6>
+  </div>
+  <div id="menulist">
+      <img src="shake1.png" alt="" />
+      <h6>LOREM IPSUM
+      <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac
+        placerat dui.
+      </p>
+      </h6>
+  </div>   
+ </div>
+    </section>
 
-				<tr>
-					<td style="text-align: center;">3.</td>
-					<td><a href="#BookTitle3">Book Title 3</a>
-						<table border="1" a>
-							<tbody>
-								<tr>
-									<td>Publication Date: 2009</td></tr>
-									<tr><td>Page count: 500</td></tr>
-									<tr><td>ISBN: 123-4567890789</td></tr>
-							</tbody>
-						</table>
-					</td>
-					<td>Author 3</td>
-					<td>Genre 3</td>
-					<td>Available</td>
-				</tr>
-
-				<tr>
-					<td style="text-align: center;">4.</td>
-					<td><a href="#BookTitle4">Book Title 4</a>
-						<table border="1" a>
-							<tbody>
-								<tr>
-									<td>Publication Date: 2001</td></tr>
-									<tr><td>Page count: 513</td></tr>
-									<tr><td>ISBN: 123-4567890112</td></tr>
-							</tbody>
-						</table>
-					</td>
-					<td>Author 4</td>
-					<td>Genre 4</td>
-					<td>Available</td>
-				</tr>
-				
-				<tr>
-					<td style="text-align: center;">5.</td>
-					<td><a href="#BookTitle5">Book Title 5</a>
-						<table border="1" a>
-							<tbody>
-								<tr>
-									<td>Publication Date: 1995</td></tr>
-									<tr><td>Page count: 625</td></tr>
-									<tr><td>ISBN: 123-4567890134</td></tr>
-							</tbody>
-						</table>
-					</td>
-					<td>Author 5</td>
-					<td>Genre 5</td>
-					<td>Available</td>
-				</tr>	
-			</tbody>
-		</table>
-	</div>
-
-
-	<div id="register" class="section">
-		<h2>Register</h2>
-		<form method="post">
-			<label for="firstname">Firstname:</label><br>
-			<input type="text" name="firstname" id="firstname" required><br>
-
-			<label for="Lastname">Lastname:</label><br>
-			<input type="text" name="Lastname" id="Lastname" required><br>
-
-			<label for="dob">Date of birth:</label><br>
-			<input type="date" name="dob" id="dob" required><br>
-
-			<label for="age">Age:</label><br>
-			<input type="number" name="age" id="age" min="5" max="100" required><br>
-
-			<label for="email">Email:</label><br>
-			<input type="email" name="email" id="email"><br>
-
-			<label for="password">Password:</label><br>
-			<input type="password" name="password" id="password"><br>
-
-			<label for="confirm_password">Confirm Password:</label><br>
-			<input type="password" name="confirm_password" id="confirm_password" required><br>
-
-			<button type="submit">Register</button>
-			<!-- dob, age, password , confirm password , register button-->
-		</form>
-
-	</div>
-</body>
+    <section>
+        <div class="aboutussection">
+            <h1>Carousel</h1>
+            <hr/>
+    </section>
+    <section class="sclist">
+        <img width="100%" height="100%" src="pizza1 1.png" alt="">
+        <img width="100%" height="100%" src="dough-3082589_1920 1.png" alt="">
+        <img width="100%" height="100%" src="pizza2.png" alt="">
+        <img width="100%" height="100%" src="pizza5.png" alt="">
+        <img width="100%" height="100%" src="shake1.png" alt="">
+    </section>
+    <section>
+        <div class="aboutussection">
+            <h1>Gallery</h1>
+            <hr/>
+    </section>
+    <section class="gallery">
+        <div id="firstimg">
+            <img height="100%" width="100%" src="pizza2.png" alt="">
+        </div>
+        <div id="secondimg">
+            <img height="30%" width="100%" id="secimg" src="pizza2.png" alt="">
+            <img height="30%" width="100%" id="thrdimg" src="pizza5.png" alt="">
+            <img height="30%" width="100%" id="fourthimg" src="bread2.png" alt="">
+        </div>
+        <div id="thirdimg">
+            <img height="50%" width="100%" id="fivthimg" src="bread.png" alt="">
+            <img height="50%" width="100%" id="sixthimg" src="shake1.png" alt="">
+        </div>
+    </section>
+    
+    <section>
+        <div class="aboutussection">
+            <h1 style="margin-top: 50px;"><br><br>FIND US</h1>
+            <hr/>   
+    </section>
+    <section class="findus">
+        <div id="helporlocation">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text e.</p>
+            <p><i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i> Location XYZ, XYZ Colony, Delhi</p>
+            <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i> 123-456-789 <br>   987-654-321</p>
+        </div>
+        <div>
+            <img height="100%" width="80%" src="image 4.png" alt="">
+        </div>
+    </section>
+    <footer>
+      <svg width="100" height="100">
+        <image href="Groupmanimg.svg" width="100" height="100" />
+      </svg>
+        <div>
+            <p><i class="fa-regular fa-envelope" style="color: #fbfcfe;"></i> mailid@gmail.com</p>
+            <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i> 123-456-789 <br> 987-654-321</p>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
